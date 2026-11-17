@@ -1,0 +1,2 @@
+CREATE TABLE IF NOT EXISTS results (id TEXT PRIMARY KEY,user_id TEXT NOT NULL,date TEXT NOT NULL,subject TEXT NOT NULL,total INTEGER NOT NULL,correct INTEGER NOT NULL,wrong INTEGER NOT NULL,missed_json TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS results_user_date ON results(user_id,date DESC);
