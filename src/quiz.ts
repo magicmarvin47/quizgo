@@ -1,4 +1,4 @@
-export type Question={id:string;subject:string;prompt:string;options:string[];correct:string};
+export type Question={id:string;subject:string;prompt:string;options:string[];correct:string;source?:string};
 export type QuestionRow=Record<string,unknown>;
 const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const aliases:Record<string,string[]>={subject:['materia','argomento','subject','disciplina','categoria'],prompt:['domanda','question','quesito','testo'],A:['a','rispostaa','opzionea','answer1'],B:['b','rispostab','opzioneb','answer2'],C:['c','rispostac','opzionec','answer3'],D:['d','rispostad','opzioned','answer4'],correct:['corretta','rispostacorretta','soluzione','correct','answer','esatta']};
