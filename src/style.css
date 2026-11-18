@@ -3,3 +3,5 @@
 .numberInput{display:block;width:100%;margin-top:8px;padding:12px;background:#101827;color:white;border:1px solid #43536a;border-radius:10px;font:inherit}.fieldHint{display:block;margin-top:7px;color:#98a4b6;font-size:12px}
 
 .historyFilter{display:flex!important;align-items:center;gap:10px;margin:0 0 16px!important;padding:11px 12px;background:#243247;border:1px solid #3b4b60;border-radius:10px;color:#f3f5f8!important;font-size:14px!important}.historyFilter input{accent-color:#e2b84f}.legacyNotice{grid-column:1/-1;line-height:1.4}
+
+.accuracySummary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:9px 0;color:#cbd5e1;font-size:13px;border-bottom:1px solid #344155}.accuracy{font-weight:900;font-size:14px;min-width:42px;text-align:right}.accuracy.low{color:#f87171}.accuracy.medium{color:#fbbf24}.accuracy.high{color:#4ade80}.accuracy.perfect{color:#60a5fa}.accuracy.neutral{color:#98a4b6}.performanceSelect{display:block;margin:14px 0!important}.subjectCheck{display:flex!important;align-items:center}.subjectCheck span:nth-child(2){flex:1}.subjectPicker .accuracySummary{margin:4px 0 12px}.history>.accuracySummary{margin-bottom:2px}
